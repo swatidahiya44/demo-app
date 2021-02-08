@@ -1,0 +1,38 @@
+.centerDiv {
+  margin: auto;
+  height: 400px;
+  width: 300px;
+  padding: 0 90px;
+}
+.parentDiv {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)
+    no-repeat;
+  background-size: cover;
+}
+.checkInsta {
+  margin-bottom: 60px;
+  margin-top: 61px !important;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: xx-large !important;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.login {
+  margin-top: 20px;
+  width: 40px;
+  
+}

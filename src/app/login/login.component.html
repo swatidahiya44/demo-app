@@ -1,0 +1,21 @@
+<div class="parentDiv">
+    <mat-card class = "centerDiv">
+        <img class = "checkInsta"src="https://www.checkboxtechnology.com/wp-content/uploads/2020/10/logo1.jpg">
+        <form>
+            <mat-form-field class="example-full-width">
+                <mat-label>Email Id</mat-label>
+                <input type="email" name = "email" [(ngModel)] = "email" required matInput placeholder="abc.gmail.com" >
+                
+              </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label>Password</mat-label>
+                <input name = "password" [(ngModel)] = "password" required matInput type="password" placeholder="use special characters">
+              </mat-form-field>
+            <button  (click) = "login()" class="login" mat-button type="submit" >Login</button>  
+
+        </form>
+
+    </mat-card>
+    
+
+</div>
